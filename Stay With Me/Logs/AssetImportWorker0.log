@@ -15,11 +15,11 @@ C:/Users/mschimpf/Documents/GitHub/Stay-With-Me/Stay With Me
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50016
+54738
 Successfully changed project path to: C:/Users/mschimpf/Documents/GitHub/Stay-With-Me/Stay With Me
 C:/Users/mschimpf/Documents/GitHub/Stay-With-Me/Stay With Me
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 46.97 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 46.87 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -27,499 +27,1154 @@ Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Renderer: Radeon RX 570 Series (ID=0x67df)
     Vendor:   
-    VRAM:     8088 MB
-    Driver:   26.21.14.3200
+    VRAM:     4075 MB
+    Driver:   27.20.1034.6
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56776
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001499 seconds.
+Registered in 0.001648 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 47.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 46.47 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.313 seconds
+- Completed reload, in  2.276 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001402 seconds.
+Registered in 0.001465 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 56.14 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 53.06 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.895 seconds
+- Completed reload, in  0.861 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2767 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 145.6 MB.
-System memory in use after: 143.6 MB.
+Unloading 3168 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.8 MB.
+System memory in use after: 150.8 MB.
 
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3198.
-Total: 3.510200 ms (FindLiveObjects: 0.320300 ms CreateObjectMapping: 0.143600 ms MarkObjects: 1.910900 ms  DeleteObjects: 1.134000 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/ootii
-  artifactKey: Guid(bf402870190c0134da1bc8fb57166c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ootii using Guid(bf402870190c0134da1bc8fb57166c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ebcfcd943315fb6ea3adeeb9b1b3c1') in 0.006331 seconds
-  Import took 0.011626 seconds .
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3600.
+Total: 3.621600 ms (FindLiveObjects: 0.493200 ms CreateObjectMapping: 0.299100 ms MarkObjects: 1.684900 ms  DeleteObjects: 1.143900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/ootii/_Demos
-  artifactKey: Guid(4219ba7ef708d94468cbac1fc02e3f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ootii/_Demos using Guid(4219ba7ef708d94468cbac1fc02e3f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e501d30ac32db2792a7629df26169f6') in 0.002539 seconds
-  Import took 0.007375 seconds .
+  path: Assets/Tests
+  artifactKey: Guid(f23bed438013a47438010dafdc996ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tests using Guid(f23bed438013a47438010dafdc996ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf9121528d9754bf71f3c27698c27a6') in 0.005612 seconds
+  Import took 0.009772 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 86.8 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3600.
+Total: 3.769300 ms (FindLiveObjects: 0.331800 ms CreateObjectMapping: 0.227600 ms MarkObjects: 2.085700 ms  DeleteObjects: 1.107400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/ootii/_MyGame
-  artifactKey: Guid(790bbff77b62253458df399e0b5d6a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ootii/_MyGame using Guid(790bbff77b62253458df399e0b5d6a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c931fe1e70383423ed35eeb700cd836') in 0.002349 seconds
-  Import took 0.006604 seconds .
+  Time since last request: 14.823932 seconds.
+  path: Assets/m_game
+  artifactKey: Guid(498ff8dbe9cb29b40a3ea915f30afd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/m_game using Guid(498ff8dbe9cb29b40a3ea915f30afd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eacbc7aef2a1775b76be6ee0804ffae') in 0.002243 seconds
+  Import took 0.006952 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002934 seconds.
-  path: Assets/ootii/_Demos/ootii.Demos.asmdef
-  artifactKey: Guid(a45a0d495cc9bef4584b05b339bf8a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ootii/_Demos/ootii.Demos.asmdef using Guid(a45a0d495cc9bef4584b05b339bf8a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50998489b8dc3546b4498bac2cc9d91') in 0.024723 seconds
-  Import took 0.029989 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.790033 seconds.
-  path: Assets/ootii/_Demos/ActorController
-  artifactKey: Guid(9ba2a37cfb009e844a06f852765dbefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ootii/_Demos/ActorController using Guid(9ba2a37cfb009e844a06f852765dbefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e62c76ad8608e3ada3c5f04aec2b3b') in 0.003208 seconds
-  Import took 0.007691 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.405579 seconds.
-  path: Assets/ootii/_Demos/ActorController/Scenes
-  artifactKey: Guid(268669edd70b8624998a048ab78f0b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ootii/_Demos/ActorController/Scenes using Guid(268669edd70b8624998a048ab78f0b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '379464d8d3f9fd24db455126b308df58') in 0.002748 seconds
-  Import took 0.007005 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.065249 seconds.
-  path: Assets/ootii/_Demos/ActorController/Scenes/demo_Factory.unity
-  artifactKey: Guid(168497fd0769b3b4da52261599e68b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ootii/_Demos/ActorController/Scenes/demo_Factory.unity using Guid(168497fd0769b3b4da52261599e68b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7181f94916e1575a1a8a4d39e2017a4') in 0.008769 seconds
-  Import took 0.012579 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 96.875320 seconds.
-  path: Assets/TestScene1.unity
-  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TestScene1.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1bb0cc727e6b0a5731233456a69f6e') in 0.003188 seconds
-  Import took 0.008316 seconds .
+  Time since last request: 5.119522 seconds.
+  path: Assets/m_Game
+  artifactKey: Guid(498ff8dbe9cb29b40a3ea915f30afd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/m_Game using Guid(498ff8dbe9cb29b40a3ea915f30afd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e54ccb835b388f1f5ee9f0db50c1da0') in 0.002742 seconds
+  Import took 0.007730 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001533 seconds.
+Registered in 0.001692 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.599 seconds
+- Completed reload, in  0.808 seconds
 Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2299 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.4 MB.
-System memory in use after: 132.4 MB.
-
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3200.
-Total: 3.700900 ms (FindLiveObjects: 0.540200 ms CreateObjectMapping: 0.252500 ms MarkObjects: 1.709300 ms  DeleteObjects: 1.197500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001351 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.738 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2299 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.8 MB.
-System memory in use after: 132.8 MB.
-
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3202.
-Total: 3.403500 ms (FindLiveObjects: 0.300500 ms CreateObjectMapping: 0.120800 ms MarkObjects: 1.762600 ms  DeleteObjects: 1.218700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 783.520223 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(ee7a7b6b04540b640b256e1cc59f688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(ee7a7b6b04540b640b256e1cc59f688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32cd3e02dfde885d168de841e6587ec0') in 0.009392 seconds
-  Import took 0.014944 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.232561 seconds.
-  path: Assets/My Scripts
-  artifactKey: Guid(ee7a7b6b04540b640b256e1cc59f688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Scripts using Guid(ee7a7b6b04540b640b256e1cc59f688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9629bae48be379f8838d93f59a3e7a9a') in 0.002694 seconds
-  Import took 0.007264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.894617 seconds.
-  path: Assets/My Scripts/PlayerController.cs
-  artifactKey: Guid(26277b81e2151a447945823b1b681e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Scripts/PlayerController.cs using Guid(26277b81e2151a447945823b1b681e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0419d283dceeef89d63932e4bd7fdd4e') in 0.017321 seconds
-  Import took 0.022055 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001364 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.908 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2300 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.4 MB.
-System memory in use after: 133.4 MB.
-
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3205.
-Total: 3.591900 ms (FindLiveObjects: 0.423200 ms CreateObjectMapping: 0.186400 ms MarkObjects: 1.706000 ms  DeleteObjects: 1.274900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001337 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.749 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2300 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.8 MB.
-System memory in use after: 133.8 MB.
-
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3207.
-Total: 3.390500 ms (FindLiveObjects: 0.318400 ms CreateObjectMapping: 0.098900 ms MarkObjects: 1.683700 ms  DeleteObjects: 1.288400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 195.025840 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8988b340c206bb1d98ca0d47b0266d3b') in 0.013553 seconds
-  Import took 0.017782 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001352 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.773 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2300 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.3 MB.
-System memory in use after: 134.3 MB.
-
-Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3209.
-Total: 4.003700 ms (FindLiveObjects: 0.293600 ms CreateObjectMapping: 0.153300 ms MarkObjects: 2.095100 ms  DeleteObjects: 1.460600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001281 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.799 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2300 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.6 MB.
-System memory in use after: 133.6 MB.
-
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3211.
-Total: 3.873700 ms (FindLiveObjects: 0.368500 ms CreateObjectMapping: 0.137500 ms MarkObjects: 1.736200 ms  DeleteObjects: 1.630400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001296 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.755 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2300 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.8 MB.
-System memory in use after: 133.9 MB.
-
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3213.
-Total: 3.539100 ms (FindLiveObjects: 0.248200 ms CreateObjectMapping: 0.117100 ms MarkObjects: 1.837600 ms  DeleteObjects: 1.335200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001278 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.756 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2300 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.5 MB.
-System memory in use after: 133.5 MB.
-
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3215.
-Total: 3.511900 ms (FindLiveObjects: 0.334800 ms CreateObjectMapping: 0.135000 ms MarkObjects: 1.658600 ms  DeleteObjects: 1.382400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001517 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.739 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2334 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 137.0 MB.
-System memory in use after: 134.9 MB.
-
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3251.
-Total: 3.492800 ms (FindLiveObjects: 0.233400 ms CreateObjectMapping: 0.120600 ms MarkObjects: 1.841600 ms  DeleteObjects: 1.296300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006690 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 45.72 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.802 seconds
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3089 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 157.2 MB.
-System memory in use after: 154.7 MB.
+Unloading 3078 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.0 MB.
+System memory in use after: 147.0 MB.
 
-Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3997.
-Total: 3.687500 ms (FindLiveObjects: 0.350500 ms CreateObjectMapping: 0.162900 ms MarkObjects: 1.799800 ms  DeleteObjects: 1.373400 ms)
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3602.
+Total: 11.792900 ms (FindLiveObjects: 0.831900 ms CreateObjectMapping: 0.543800 ms MarkObjects: 6.027000 ms  DeleteObjects: 4.387100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002163 seconds.
+Registered in 0.001499 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.972 seconds
+- Completed reload, in  0.801 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3089 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 157.6 MB.
-System memory in use after: 155.1 MB.
+Unloading 3078 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.0 MB.
+System memory in use after: 148.0 MB.
 
-Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3999.
-Total: 4.586400 ms (FindLiveObjects: 0.440700 ms CreateObjectMapping: 0.215900 ms MarkObjects: 2.375200 ms  DeleteObjects: 1.553300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1183.763783 seconds.
-  path: Assets/FungusExamples
-  artifactKey: Guid(8a377917380804e64ac98abb2ce7ef57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FungusExamples using Guid(8a377917380804e64ac98abb2ce7ef57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef5fcfcb80d0e579485a2a55bd7cdae') in 0.006335 seconds
-  Import took 0.012080 seconds .
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3604.
+Total: 3.329400 ms (FindLiveObjects: 0.269100 ms CreateObjectMapping: 0.139500 ms MarkObjects: 1.676300 ms  DeleteObjects: 1.243700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.473568 seconds.
-  path: Assets/FungusExamples/FungusExamples.asmdef
-  artifactKey: Guid(d749be870df4c4048a9636146e66f475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FungusExamples/FungusExamples.asmdef using Guid(d749be870df4c4048a9636146e66f475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ae841748e0eb64977c812a48adbb52') in 0.002671 seconds
-  Import took 0.008250 seconds .
+  Time since last request: 39.537396 seconds.
+  path: Assets/Model Assets
+  artifactKey: Guid(a1ab932bde9153841804822a1e71d7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets using Guid(a1ab932bde9153841804822a1e71d7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c91bc83f99bc013fda7cc9a0ba139f') in 0.006129 seconds
+  Import took 0.012986 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.950578 seconds.
-  path: Assets/FungusExamples/Sherlock
-  artifactKey: Guid(bfdd031cf416e4f20900a580a6ffccd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FungusExamples/Sherlock using Guid(bfdd031cf416e4f20900a580a6ffccd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '683e8fbcb819f964d4ba957d62602cd7') in 0.003233 seconds
-  Import took 0.009235 seconds .
+  Time since last request: 20.297952 seconds.
+  path: Assets/m_Game/Prefabs
+  artifactKey: Guid(a8b5c1deb43572c419cf20b24fdc18fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/m_Game/Prefabs using Guid(a8b5c1deb43572c419cf20b24fdc18fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '049c409bfc9ad29732aa2a895f6cc625') in 0.004606 seconds
+  Import took 0.010419 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001105 seconds.
-  path: Assets/FungusExamples/Sherlock
-  artifactKey: Guid(bfdd031cf416e4f20900a580a6ffccd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FungusExamples/Sherlock using Guid(bfdd031cf416e4f20900a580a6ffccd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '683e8fbcb819f964d4ba957d62602cd7') in 0.002658 seconds
-  Import took 0.008411 seconds .
+  Time since last request: 4.176941 seconds.
+  path: Assets/m_Game/Prefabs/Models
+  artifactKey: Guid(c63377b7b5f144a4cb8e0f8a11e7050e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/m_Game/Prefabs/Models using Guid(c63377b7b5f144a4cb8e0f8a11e7050e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7d30900b78ef77dba0395f28f5cd80') in 0.002521 seconds
+  Import took 0.007819 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.294709 seconds.
-  path: Assets/FungusExamples/Sherlock/TheExperiment.unity
-  artifactKey: Guid(9ab610dfd527c084a95ce3496bbfae10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FungusExamples/Sherlock/TheExperiment.unity using Guid(9ab610dfd527c084a95ce3496bbfae10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee56d6972cfb13439aa4158cb784c044') in 0.009456 seconds
-  Import took 0.015636 seconds .
+  Time since last request: 166.646810 seconds.
+  path: Assets/Model Assets/Modular House Collection
+  artifactKey: Guid(1e7b9fa5147117a43924ebb3bfbaa8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection using Guid(1e7b9fa5147117a43924ebb3bfbaa8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8392182409f1f35f2a9c41cf0c471db7') in 0.002792 seconds
+  Import took 0.008303 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 96.582233 seconds.
-  path: Assets/TestScene1.unity
-  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TestScene1.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e07919f9bc9d7431436a45b433cdc5') in 0.003198 seconds
-  Import took 0.008887 seconds .
+  Time since last request: 26.186057 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Bathroom_Shower.obj
+  artifactKey: Guid(b18e1574099a14c4fb12eefad1c8aecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Bathroom_Shower.obj using Guid(b18e1574099a14c4fb12eefad1c8aecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72418a9b2d9504c667430f5ee69a3795') in 0.327453 seconds
+  Import took 0.334755 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001445 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.771 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3089 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 157.8 MB.
-System memory in use after: 155.3 MB.
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Bathroom_Toilet_Paper_Dispenser.obj
+  artifactKey: Guid(2561e97ca4140194098de9d663e53364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Bathroom_Toilet_Paper_Dispenser.obj using Guid(2561e97ca4140194098de9d663e53364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb739d705a96108e98de3374cd1efec') in 0.048815 seconds
+  Import took 0.053465 seconds .
 
-Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 4001.
-Total: 4.318800 ms (FindLiveObjects: 0.509800 ms CreateObjectMapping: 0.199000 ms MarkObjects: 1.999900 ms  DeleteObjects: 1.609200 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Bedroom_Bed_Single.obj
+  artifactKey: Guid(7b7d308d64c3af344b19c2217d926151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Bedroom_Bed_Single.obj using Guid(7b7d308d64c3af344b19c2217d926151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1e68cecfe97cf9f1469381c3e91ce7') in 0.076370 seconds
+  Import took 0.081451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Dining_Room_Table_Modular_Side.obj
+  artifactKey: Guid(cf47ae672b7cc484c8438cedd51f93bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Dining_Room_Table_Modular_Side.obj using Guid(cf47ae672b7cc484c8438cedd51f93bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82507f7071b2b9de38da1d4e0ae13f05') in 0.031216 seconds
+  Import took 0.037033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Bathroom_Shower_Curtain.obj
+  artifactKey: Guid(cff160a424aa92e4caf050bc8fb0d876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Bathroom_Shower_Curtain.obj using Guid(cff160a424aa92e4caf050bc8fb0d876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f3da416f642807d5ac34186eb80f73') in 0.042715 seconds
+  Import took 0.048524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Fireplace_Mid.obj
+  artifactKey: Guid(3110b284f2979f44188955a590e6e269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Fireplace_Mid.obj using Guid(3110b284f2979f44188955a590e6e269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ddad02ccd5114824ab5ed3fb6ae5ff3') in 0.023188 seconds
+  Import took 0.027716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Curtains_Single.obj
+  artifactKey: Guid(bf3a181a040fc47419aa7268baf699bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Curtains_Single.obj using Guid(bf3a181a040fc47419aa7268baf699bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9e8c628cf7354ce7d274357ca534e3') in 0.042616 seconds
+  Import took 0.049120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Exterior_Chimney.obj
+  artifactKey: Guid(20047f3da4af1334a884d5dbf59c0b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Exterior_Chimney.obj using Guid(20047f3da4af1334a884d5dbf59c0b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1080f0d46620df299d3b80b06cb05680') in 0.022287 seconds
+  Import took 0.029197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Living_Room_Modular_Couch_End.obj
+  artifactKey: Guid(c41a786a06d418046ae332b0c1c62978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Living_Room_Modular_Couch_End.obj using Guid(c41a786a06d418046ae332b0c1c62978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43e0943aa1329ac8e51beeab196f1cb') in 0.023110 seconds
+  Import took 0.029012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Bedroom_Dresser_Mirror.obj
+  artifactKey: Guid(fee19eb1fb5b78445b70d81d1f936254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Bedroom_Dresser_Mirror.obj using Guid(fee19eb1fb5b78445b70d81d1f936254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa342263680870d934ee708143c8a75') in 0.032345 seconds
+  Import took 0.037461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Dining_Room_Table_Modular_Corner.obj
+  artifactKey: Guid(f9d7ad054074da44daca53e4e7b41256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Dining_Room_Table_Modular_Corner.obj using Guid(f9d7ad054074da44daca53e4e7b41256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cbbdb0a3bd4823c48385f7182c932ea') in 0.026780 seconds
+  Import took 0.031809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Misc_Picture_Landscape.obj
+  artifactKey: Guid(f636668736ff65346af9d4058e3e5ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Misc_Picture_Landscape.obj using Guid(f636668736ff65346af9d4058e3e5ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e3e6872f678836e847e5d919a7ff66') in 0.038174 seconds
+  Import took 0.043049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Bathroom_Towel_Rack.obj
+  artifactKey: Guid(a0b9af7ac7603844b917fb3fb3716516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Bathroom_Towel_Rack.obj using Guid(a0b9af7ac7603844b917fb3fb3716516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bfaef5c308de20d1dfb5f1e185eb09c') in 0.026757 seconds
+  Import took 0.031148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Kitchen_Trashcan.obj
+  artifactKey: Guid(5b90387665eb3e84091a5f445065cb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Kitchen_Trashcan.obj using Guid(5b90387665eb3e84091a5f445065cb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcdd537bf487d29284fcdfc5075202de') in 0.032727 seconds
+  Import took 0.038040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Misc_Lamp.obj
+  artifactKey: Guid(a6a0a85b57302174d9146824ccc950c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Misc_Lamp.obj using Guid(a6a0a85b57302174d9146824ccc950c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29215e828b0467c054a873bd7838cc7') in 0.072387 seconds
+  Import took 0.077693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Kitchen_Microwave.obj
+  artifactKey: Guid(defeeca748f98ec45b2be0c940762d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Kitchen_Microwave.obj using Guid(defeeca748f98ec45b2be0c940762d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d527a1d550cdf06871c9b079884d7a2') in 0.048594 seconds
+  Import took 0.052937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Misc_Picture_Square_Small.obj
+  artifactKey: Guid(2291b776a5937254fb01462889ad0746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Misc_Picture_Square_Small.obj using Guid(2291b776a5937254fb01462889ad0746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3bea6d3c238210414816b18626ba657') in 0.036377 seconds
+  Import took 0.040838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Misc_Rug_Rectangle.obj
+  artifactKey: Guid(f2fd0dac0c298ce4ca4c1f9a736b0774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Misc_Rug_Rectangle.obj using Guid(f2fd0dac0c298ce4ca4c1f9a736b0774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac600d4b9ccdb30737d701b2d8c65f3a') in 0.031238 seconds
+  Import took 0.035688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Bedroom_Dresser_Single.obj
+  artifactKey: Guid(ba751807bdaa6184e845f2f5b0560b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Bedroom_Dresser_Single.obj using Guid(ba751807bdaa6184e845f2f5b0560b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43977755fbc9b7a4a3331b0b19dfcaef') in 0.046951 seconds
+  Import took 0.051199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Misc_Rug_Rounded_Ends.obj
+  artifactKey: Guid(0b270361b7804d942ba2f8c72e574a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Misc_Rug_Rounded_Ends.obj using Guid(0b270361b7804d942ba2f8c72e574a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '423d0c89ac55b5ebd2301b78c7b8d60a') in 0.031175 seconds
+  Import took 0.036040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Dining_Room_Table_Rectangle.obj
+  artifactKey: Guid(9884b4ab08d81b944a96a94e302db6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Dining_Room_Table_Rectangle.obj using Guid(9884b4ab08d81b944a96a94e302db6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84306d1676ef6dc20139cbf46f497437') in 0.025492 seconds
+  Import took 0.030794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Living_Room_Coffee_Table.obj
+  artifactKey: Guid(5cb40c229f4dcdb4b9722fa50c818991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Living_Room_Coffee_Table.obj using Guid(5cb40c229f4dcdb4b9722fa50c818991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcda251399f09415fa56be593c036e98') in 0.033624 seconds
+  Import took 0.038741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Misc_Picture_Portrait.obj
+  artifactKey: Guid(acd3d15a7cfa9a3468e27f6c515c048b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Misc_Picture_Portrait.obj using Guid(acd3d15a7cfa9a3468e27f6c515c048b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f5b1a03d0c1f65d33dd8432eec230e') in 0.047789 seconds
+  Import took 0.052610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Dining_Room_Table_Modular_Center.obj
+  artifactKey: Guid(a980c68bc08d7c54bab60527227ffecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Dining_Room_Table_Modular_Center.obj using Guid(a980c68bc08d7c54bab60527227ffecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8949f754c75541ccd7985a05de4f7a2') in 0.021251 seconds
+  Import took 0.026437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Misc_Ceiling_Fan_6.obj
+  artifactKey: Guid(a8705a66c82d8f24ba22925fac1f96a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Misc_Ceiling_Fan_6.obj using Guid(a8705a66c82d8f24ba22925fac1f96a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6216f2fb590c48f81c48f2d70ddce3e0') in 0.191935 seconds
+  Import took 0.196988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Bedroom_Bed_Queen.obj
+  artifactKey: Guid(a94819a13f16d384b887a7efede039af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Bedroom_Bed_Queen.obj using Guid(a94819a13f16d384b887a7efede039af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91ddebee8ef811e2c4ff464e2021cd9') in 0.075744 seconds
+  Import took 0.080224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Living_Room_TV_Stand.obj
+  artifactKey: Guid(201f689668f810d4886daca9f6c189f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Living_Room_TV_Stand.obj using Guid(201f689668f810d4886daca9f6c189f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0704021ebf7011489d47cd98b4576a') in 0.072841 seconds
+  Import took 0.077205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Living_Room_TV.obj
+  artifactKey: Guid(f0fffcff70f2c6244a4b6f758c92f637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Living_Room_TV.obj using Guid(f0fffcff70f2c6244a4b6f758c92f637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44cfb442d47c1d3643441db1fd7bcb1c') in 0.041428 seconds
+  Import took 0.045813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Misc_Ceiling_Light_3.obj
+  artifactKey: Guid(c64c20bef17ea264ab650370aeb584ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Misc_Ceiling_Light_3.obj using Guid(c64c20bef17ea264ab650370aeb584ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9ea7edb5ca16d00077788260e29d19') in 0.098468 seconds
+  Import took 0.102670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Dining_Room_Table_Square.obj
+  artifactKey: Guid(dd679c5bb3c8d384db46936d878f2c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Dining_Room_Table_Square.obj using Guid(dd679c5bb3c8d384db46936d878f2c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf954e9b136e888f7cae36e2433087d') in 0.027407 seconds
+  Import took 0.032490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Living_Room_Modular_Couch_Leg_Rest.obj
+  artifactKey: Guid(a31606f4139b8be458f6e57f4901e7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Living_Room_Modular_Couch_Leg_Rest.obj using Guid(a31606f4139b8be458f6e57f4901e7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9715c8c3239f1ab972a30b847ada514a') in 0.050713 seconds
+  Import took 0.055897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Living_Room_Modular_Couch_Center.obj
+  artifactKey: Guid(4b113f08b6a4c42438b5b5d727c31bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Living_Room_Modular_Couch_Center.obj using Guid(4b113f08b6a4c42438b5b5d727c31bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd5f6bd7dbf2468bfea60ec61e8397f') in 0.045119 seconds
+  Import took 0.049432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Kitchen_Bar_Stool.obj
+  artifactKey: Guid(dd0b00d5ae4e136458aee045dbe80204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Kitchen_Bar_Stool.obj using Guid(dd0b00d5ae4e136458aee045dbe80204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec99572abdb12b3590c1450a8f06c407') in 0.043938 seconds
+  Import took 0.048274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Living_Room_Side_Table.obj
+  artifactKey: Guid(a0a4ea4bfe76b7c408ec3ef20887b968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Living_Room_Side_Table.obj using Guid(a0a4ea4bfe76b7c408ec3ef20887b968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90474cbed6b62976d798587fb2491174') in 0.049985 seconds
+  Import took 0.054404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Kitchen_Refrigerator.obj
+  artifactKey: Guid(debd4f85c24d05945966455955ac32f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Kitchen_Refrigerator.obj using Guid(debd4f85c24d05945966455955ac32f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e2b0604bd6121f35b15b78aa4b5be2') in 0.056515 seconds
+  Import took 0.060860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Exterior_Shutter_Louvered.obj
+  artifactKey: Guid(8a4dc79ad3a45cd4e8ba344f31bad0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Exterior_Shutter_Louvered.obj using Guid(8a4dc79ad3a45cd4e8ba344f31bad0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f473cc9474912f5f14a115a94d9b6087') in 0.028236 seconds
+  Import took 0.032830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Curtains_Double.obj
+  artifactKey: Guid(cce73a4fdf6bebb4e8ac444fa7e2d549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Curtains_Double.obj using Guid(cce73a4fdf6bebb4e8ac444fa7e2d549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab39d449d2d9484dd44e5ef5c36cfee') in 0.049705 seconds
+  Import took 0.054017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Misc_Ceiling_Fan_5.obj
+  artifactKey: Guid(b7bac54eba52d964b8ee6cffc20c98b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Misc_Ceiling_Fan_5.obj using Guid(b7bac54eba52d964b8ee6cffc20c98b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5acfc4a865a35015173276559810f42f') in 0.181902 seconds
+  Import took 0.186317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Bedroom_Dresser_Single_Tall.obj
+  artifactKey: Guid(ba6e1fd7926ec1743a74f40a392d4421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Bedroom_Dresser_Single_Tall.obj using Guid(ba6e1fd7926ec1743a74f40a392d4421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27525c92072b02e9d80c1aa234195889') in 0.065177 seconds
+  Import took 0.069462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Living_Room_Modular_Couch_Corner.obj
+  artifactKey: Guid(2e6e350e7d071f24e8e09f452512ea46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Living_Room_Modular_Couch_Corner.obj using Guid(2e6e350e7d071f24e8e09f452512ea46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95f18dd7be77e9e533f82253991b690') in 0.062717 seconds
+  Import took 0.067048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Bedroom_Dresser_Double.obj
+  artifactKey: Guid(8722933111116df4cae680c5c628c60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Bedroom_Dresser_Double.obj using Guid(8722933111116df4cae680c5c628c60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef8e39f566523f7d637f1f22647c53e') in 0.068420 seconds
+  Import took 0.072791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Fireplace.obj
+  artifactKey: Guid(717b552b8fcb7fe45a26ffee9a828ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Fireplace.obj using Guid(717b552b8fcb7fe45a26ffee9a828ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63160a8cd7e1bee1426a8df5586a40d') in 0.078257 seconds
+  Import took 0.082664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Misc_Picture_Square_Large.obj
+  artifactKey: Guid(ef190a5280892cb48aba7b51b29f11af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Misc_Picture_Square_Large.obj using Guid(ef190a5280892cb48aba7b51b29f11af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ee0d05e760ba30c60d9da8b88a5d98') in 0.037142 seconds
+  Import took 0.041602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Misc_Ceiling_Light_Large.obj
+  artifactKey: Guid(de84a8b6bbe75344b8ed8c3d1cb8bd6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Misc_Ceiling_Light_Large.obj using Guid(de84a8b6bbe75344b8ed8c3d1cb8bd6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6ef5f51863c3d9de2a5371c3508221') in 0.042289 seconds
+  Import took 0.046474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Kitchen_Oven.obj
+  artifactKey: Guid(e5a43d660d64aae469c0ad79e2c6736d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Kitchen_Oven.obj using Guid(e5a43d660d64aae469c0ad79e2c6736d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f50eccdaa851ea611e72e793ead9b18') in 0.069324 seconds
+  Import took 0.073727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Bathroom_Towel_Rack_Stocked.obj
+  artifactKey: Guid(72d2ad0695f996f4781cbbc4c3913e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Bathroom_Towel_Rack_Stocked.obj using Guid(72d2ad0695f996f4781cbbc4c3913e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab2da39663f0ead237adee1064e5e9a') in 0.051791 seconds
+  Import took 0.056074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Misc_Rug_Circle.obj
+  artifactKey: Guid(ff795ee7f3eb19443a19bfe9d7f2c2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Misc_Rug_Circle.obj using Guid(ff795ee7f3eb19443a19bfe9d7f2c2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec1c154f83d08196380c6a1825611b7') in 0.034610 seconds
+  Import took 0.039140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Exterior_Shutter_Raised_Panel.obj
+  artifactKey: Guid(a3158a6bb2373c241b24472ce922aac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Exterior_Shutter_Raised_Panel.obj using Guid(a3158a6bb2373c241b24472ce922aac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15036b0eb8aef6359bfbd12204d721a') in 0.023475 seconds
+  Import took 0.028087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Bathroom_Toilet.obj
+  artifactKey: Guid(f7963204465c34847b83707d4c3effc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Bathroom_Toilet.obj using Guid(f7963204465c34847b83707d4c3effc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89fb1bc051d1f2e2df249d80cacd1362') in 0.059263 seconds
+  Import took 0.064446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Bedroom_Bed_Bunk.obj
+  artifactKey: Guid(7e20eab5e0cc16d4aa875af0458cc2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Bedroom_Bed_Bunk.obj using Guid(7e20eab5e0cc16d4aa875af0458cc2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041067f5d3ec5425e9daf1739e73ef70') in 0.099423 seconds
+  Import took 0.103793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Dining_Room_Chair.obj
+  artifactKey: Guid(0456c59a48febf943bb7bf0ac79e9760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Dining_Room_Chair.obj using Guid(0456c59a48febf943bb7bf0ac79e9760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbcef97f4811c5f537acaa141efc7f3') in 0.037512 seconds
+  Import took 0.042150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.734148 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Misc_Rug_Square.obj
+  artifactKey: Guid(7f4d980f256d6b54ab57b64155d4eea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Misc_Rug_Square.obj using Guid(7f4d980f256d6b54ab57b64155d4eea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd203bb26f621cc161a13d480c0436f') in 0.023706 seconds
+  Import took 0.029015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Bathroom_Cabinet_End.obj
+  artifactKey: Guid(cf122d2182bf745468b503320db5797a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Bathroom_Cabinet_End.obj using Guid(cf122d2182bf745468b503320db5797a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3d454d2a128da2dbd284d73b595646') in 0.074741 seconds
+  Import took 0.079983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Kitchen_Cabinet_Wall_Full.obj
+  artifactKey: Guid(805022f4d0258c74884e8b9cf9ee52a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Kitchen_Cabinet_Wall_Full.obj using Guid(805022f4d0258c74884e8b9cf9ee52a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4863282d1179f64fcc34016c5eb655ab') in 0.056577 seconds
+  Import took 0.061183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Bathroom_Cabinet_Sink.obj
+  artifactKey: Guid(4a951c54c11a1714f825c6a311810be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Bathroom_Cabinet_Sink.obj using Guid(4a951c54c11a1714f825c6a311810be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4028648ed108b8eac43fb9f6d3fa590') in 0.109142 seconds
+  Import took 0.113839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Roof_Edge_Full.obj
+  artifactKey: Guid(7677f9b1c41ec7444b00b92363241df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Roof_Edge_Full.obj using Guid(7677f9b1c41ec7444b00b92363241df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d6cdc8a690b94277b3b4ef42d30be6a') in 0.033887 seconds
+  Import took 0.038981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Wall_Curved_Small_Base.obj
+  artifactKey: Guid(f465afa1d8654674f8a0d9e2d58428f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Wall_Curved_Small_Base.obj using Guid(f465afa1d8654674f8a0d9e2d58428f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5011990fa542ba58ce157bd8093a02') in 0.021379 seconds
+  Import took 0.028383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Exterior_Wall_Corner.obj
+  artifactKey: Guid(af72149bc54a43542ae2d0a142bb8f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Exterior_Wall_Corner.obj using Guid(af72149bc54a43542ae2d0a142bb8f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc5e3dde188a398e59c42757ea725c9') in 0.028013 seconds
+  Import took 0.033067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Kitchen_Cabinet_Base_Corner.obj
+  artifactKey: Guid(bb0bd289c960fbf4096e36169042e897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Kitchen_Cabinet_Base_Corner.obj using Guid(bb0bd289c960fbf4096e36169042e897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99d7d36f9c8c5da4c831d91620a4ff8') in 0.083098 seconds
+  Import took 0.089097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Wall_Curved_Small_Top.obj
+  artifactKey: Guid(c6a029f7ae7ddd7468deddaf85d3c69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Wall_Curved_Small_Top.obj using Guid(c6a029f7ae7ddd7468deddaf85d3c69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ca82b72f8c0b232b5fcd54274b9dd8') in 0.025201 seconds
+  Import took 0.030261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Exterior_Doorway.obj
+  artifactKey: Guid(ce9103eac2d04b744bc448768ad13a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Exterior_Doorway.obj using Guid(ce9103eac2d04b744bc448768ad13a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a28345ccd0238c4cd43f08c22573c970') in 0.032440 seconds
+  Import took 0.037537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Stairs_Railing_Landing_Side.obj
+  artifactKey: Guid(00d8a74985a84ba48b11eae376e71c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Stairs_Railing_Landing_Side.obj using Guid(00d8a74985a84ba48b11eae376e71c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8249f192030915dc0f67e6c8acc5ed67') in 0.032689 seconds
+  Import took 0.037957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Balcony_2_Edges_Corner.obj
+  artifactKey: Guid(7125873d27068904eb254e10a1f478d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Balcony_2_Edges_Corner.obj using Guid(7125873d27068904eb254e10a1f478d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c2a0c9faeff841346bd9d36c0b76f1') in 0.032369 seconds
+  Import took 0.037576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Stairs_Curved.obj
+  artifactKey: Guid(45845e081ee76ea4cb2ca7e545e2f1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Stairs_Curved.obj using Guid(45845e081ee76ea4cb2ca7e545e2f1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf86d6bab030b78964d49b9d4b578a8') in 0.038602 seconds
+  Import took 0.043547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Kitchen_Cabinet_Wall_Short.obj
+  artifactKey: Guid(836237b0e70f61743a8a57e912a9970c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Kitchen_Cabinet_Wall_Short.obj using Guid(836237b0e70f61743a8a57e912a9970c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464beade3a3c0d5c89da49e9073773a0') in 0.076070 seconds
+  Import took 0.082848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Ceiling_Beam_Angled_Offset.obj
+  artifactKey: Guid(cadf3cb4af6316543ab7128aeec5f8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Ceiling_Beam_Angled_Offset.obj using Guid(cadf3cb4af6316543ab7128aeec5f8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '938ae53635d17cbab9bc7f4420882ab5') in 0.024137 seconds
+  Import took 0.029691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Bathroom_Cabinet_Half.obj
+  artifactKey: Guid(bcb223a3d99c5f4489dc25f8c7fe3784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Bathroom_Cabinet_Half.obj using Guid(bcb223a3d99c5f4489dc25f8c7fe3784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b291f7f297bfb2ee41e56f8ebe4e109') in 0.089049 seconds
+  Import took 0.093878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Wall_Inner_Joint_Top.obj
+  artifactKey: Guid(19406740de499bb4aa2b5c53d9f84d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Wall_Inner_Joint_Top.obj using Guid(19406740de499bb4aa2b5c53d9f84d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d7fc54b0f85d130024f026c6612813') in 0.023484 seconds
+  Import took 0.028301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Balcony_4_Edges.obj
+  artifactKey: Guid(685e470ca3ab01f41b9991ca24c069d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Balcony_4_Edges.obj using Guid(685e470ca3ab01f41b9991ca24c069d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0076061e6968d0364069bbc791fb1ed9') in 0.038894 seconds
+  Import took 0.044185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Ceiling_Beam_Straight.obj
+  artifactKey: Guid(230a21b2375202a499fec039ec60ed9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Ceiling_Beam_Straight.obj using Guid(230a21b2375202a499fec039ec60ed9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4428ce6382831a43f72d4067aa28c2f7') in 0.025125 seconds
+  Import took 0.030678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Kitchen_Bar_Center.obj
+  artifactKey: Guid(6fbebaf8f5619ae4f8139a94ccb1c04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Kitchen_Bar_Center.obj using Guid(6fbebaf8f5619ae4f8139a94ccb1c04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd039d3ace9c109dfa22d766c014fa8b') in 0.038270 seconds
+  Import took 0.043776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Exterior_Wall_Straight.obj
+  artifactKey: Guid(ea7132b7e79206b4aba395c474fd096d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Exterior_Wall_Straight.obj using Guid(ea7132b7e79206b4aba395c474fd096d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8edfac0ab9e3ecaa637f4279ac157c74') in 0.038198 seconds
+  Import took 0.043566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Kitchen_Cabinet_Wall_Open.obj
+  artifactKey: Guid(d9326c481c46cfe42bbb6105bd93df48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Kitchen_Cabinet_Wall_Open.obj using Guid(d9326c481c46cfe42bbb6105bd93df48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06899bb105e11a0509a48a6c607acda9') in 0.054568 seconds
+  Import took 0.060041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Roof_Edge_Half.obj
+  artifactKey: Guid(0057be42224bb8d4cad483aadfcb1980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Roof_Edge_Half.obj using Guid(0057be42224bb8d4cad483aadfcb1980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb64a58109ee4071dc0eed1bc738d63') in 0.044984 seconds
+  Import took 0.049710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Wall_Inner_Joint_Main.obj
+  artifactKey: Guid(908744f5f6bed5b4bb169ff5a448531e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Wall_Inner_Joint_Main.obj using Guid(908744f5f6bed5b4bb169ff5a448531e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7aaf66ba061a02e4f1ec9f5a6cfba53') in 0.039099 seconds
+  Import took 0.044577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Exterior_Window_Single.obj
+  artifactKey: Guid(7a4722298b343a9479814c68456dcfb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Exterior_Window_Single.obj using Guid(7a4722298b343a9479814c68456dcfb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca4946bb5ce9aa190c3e3fa8a183042') in 0.049228 seconds
+  Import took 0.054063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Stairs_Railing_Rising_Straight.obj
+  artifactKey: Guid(f140dc8f5afa7e64faa6ebaa96a79e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Stairs_Railing_Rising_Straight.obj using Guid(f140dc8f5afa7e64faa6ebaa96a79e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '706442fe6752a67e294687adcc2963d1') in 0.035373 seconds
+  Import took 0.040202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Stairs_Railing_Peg.obj
+  artifactKey: Guid(58e73da7ad6801845ba227f707440b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Stairs_Railing_Peg.obj using Guid(58e73da7ad6801845ba227f707440b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1179a33f6333b7b82c8aa83524a0cba') in 0.021433 seconds
+  Import took 0.026721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Kitchen_Cabinet_Base_Full.obj
+  artifactKey: Guid(577e96c2930e518419d0645cb14d7ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Kitchen_Cabinet_Base_Full.obj using Guid(577e96c2930e518419d0645cb14d7ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4324cc2a2aef42c7a7b7020fc80f1362') in 0.104093 seconds
+  Import took 0.109187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Roof_Center_Full.obj
+  artifactKey: Guid(93371f994903b7e48a8c9c061329631b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Roof_Center_Full.obj using Guid(93371f994903b7e48a8c9c061329631b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b844319b641b52134c0298062748e0') in 0.030348 seconds
+  Import took 0.035323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Kitchen_Cabinet_Wall_Corner.obj
+  artifactKey: Guid(0248735cbfa772447aad2d347342a5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Kitchen_Cabinet_Wall_Corner.obj using Guid(0248735cbfa772447aad2d347342a5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea840082ed3df04899d843275898d53') in 0.063395 seconds
+  Import took 0.069192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Wall_Inner_Joint_Base.obj
+  artifactKey: Guid(bc99b189eab809345b705463c26c87a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Wall_Inner_Joint_Base.obj using Guid(bc99b189eab809345b705463c26c87a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '099278050437b11bca86ffb7b29f9cca') in 0.027486 seconds
+  Import took 0.031988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Roof_Edge_Eave.obj
+  artifactKey: Guid(55570d270da7b204cb9d5238304f95bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Roof_Edge_Eave.obj using Guid(55570d270da7b204cb9d5238304f95bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde5e7e21661ae5108acddcbc8cbb055') in 0.052438 seconds
+  Import took 0.057925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Misc_Trashcan.obj
+  artifactKey: Guid(b851f431f4b0a5044bea281a0139ffc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Misc_Trashcan.obj using Guid(b851f431f4b0a5044bea281a0139ffc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c1e7a1be4fd92a7a94c6de93518e5f') in 0.022316 seconds
+  Import took 0.027378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Stairs_Railing_Rising_Curved_Inner.obj
+  artifactKey: Guid(e6c70fff37ef8ea43b077e3f4fa8c2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Stairs_Railing_Rising_Curved_Inner.obj using Guid(e6c70fff37ef8ea43b077e3f4fa8c2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3c9cd51065a20c0f8ac68174680e01') in 0.032173 seconds
+  Import took 0.037216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Roof_Center_Eave.obj
+  artifactKey: Guid(f7d660c33f9f13f4da3e59af4d64ee31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Roof_Center_Eave.obj using Guid(f7d660c33f9f13f4da3e59af4d64ee31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692ddc71c491c08134d86f80186f6c7d') in 0.032017 seconds
+  Import took 0.038115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Exterior_Window_Double.obj
+  artifactKey: Guid(8cea1c8e97f4f6042bb50f9b8b93db90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Exterior_Window_Double.obj using Guid(8cea1c8e97f4f6042bb50f9b8b93db90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56930b56cbe2129ae51c86d1f3752755') in 0.065265 seconds
+  Import took 0.070629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Kitchen_Bar_Edge.obj
+  artifactKey: Guid(8b7c682b50f2cff40a19ff6e7501a19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Kitchen_Bar_Edge.obj using Guid(8b7c682b50f2cff40a19ff6e7501a19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897630bd00f2e7c84ca3ae11371f197c') in 0.053806 seconds
+  Import took 0.058486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Kitchen_Bar_Half.obj
+  artifactKey: Guid(99741557b35e06040bb61ecd7e073aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Kitchen_Bar_Half.obj using Guid(99741557b35e06040bb61ecd7e073aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca2ead15874e9bb03c85d504d4f2af3') in 0.070926 seconds
+  Import took 0.075672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Stairs_Straight.obj
+  artifactKey: Guid(de0ee78fd47ac3a4c9c64d5b63d35557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Stairs_Straight.obj using Guid(de0ee78fd47ac3a4c9c64d5b63d35557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9b59139e8319e875b7c8d43ef03c9b') in 0.037311 seconds
+  Import took 0.041786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Wall_Curved_Small_Main.obj
+  artifactKey: Guid(1c93cf1052fac1945b7e8245dafbab41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Wall_Curved_Small_Main.obj using Guid(1c93cf1052fac1945b7e8245dafbab41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5584eea62575de08a13a4971e4b3be83') in 0.047380 seconds
+  Import took 0.052421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Kitchen_Bar_Corner_Inner.obj
+  artifactKey: Guid(992c011b5d7030b488a57c0a4fca8f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Kitchen_Bar_Corner_Inner.obj using Guid(992c011b5d7030b488a57c0a4fca8f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a92323d6669227f46343bda61c6710') in 0.069001 seconds
+  Import took 0.073508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Stairs_Railing_Post.obj
+  artifactKey: Guid(ebb5b71f030e583499f883f4f798d214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Stairs_Railing_Post.obj using Guid(ebb5b71f030e583499f883f4f798d214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e57fe13337e3c14dcc4898e1b44d9952') in 0.021928 seconds
+  Import took 0.026711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Balcony_1_Edge.obj
+  artifactKey: Guid(9fe55af59535c7b459248e6cd70e7a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Balcony_1_Edge.obj using Guid(9fe55af59535c7b459248e6cd70e7a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c50346a1f0fdfb16b188ec1de5d349') in 0.033974 seconds
+  Import took 0.039623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Balcony_3_Edges.obj
+  artifactKey: Guid(aecaa8ea92dca654196ee73cdcfbfa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Balcony_3_Edges.obj using Guid(aecaa8ea92dca654196ee73cdcfbfa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24d7681ec31821a656dda0f5e6ef99e') in 0.042326 seconds
+  Import took 0.047619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Wall_Straight_Main.obj
+  artifactKey: Guid(683610c1ee2a9c045b5933af37d546e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Wall_Straight_Main.obj using Guid(683610c1ee2a9c045b5933af37d546e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '227b56add838acc262d3d78a9cd84ad0') in 0.031090 seconds
+  Import took 0.036539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Wall_Curved_Large_Main.obj
+  artifactKey: Guid(55fc3ec59e79d474aa9bdf44b40369c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Wall_Curved_Large_Main.obj using Guid(55fc3ec59e79d474aa9bdf44b40369c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287a771a822fba76a0356f071a39a2ed') in 0.037775 seconds
+  Import took 0.043484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Wall_Curved_Large_Top.obj
+  artifactKey: Guid(83ffed4fff4db88439bc3e7b974b8962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Wall_Curved_Large_Top.obj using Guid(83ffed4fff4db88439bc3e7b974b8962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53640093468af0c57ac41c40677745f') in 0.030690 seconds
+  Import took 0.036286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Kitchen_Bar_Corner_Outer.obj
+  artifactKey: Guid(58804a40f8aedc344b6d9b26e2ed7d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Kitchen_Bar_Corner_Outer.obj using Guid(58804a40f8aedc344b6d9b26e2ed7d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e278bb1930735ce95606e68c92afa0a2') in 0.076663 seconds
+  Import took 0.082408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Bathroom_Tile_Wall.obj
+  artifactKey: Guid(25673c86f9c798d4c96d088fe5d0aafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Bathroom_Tile_Wall.obj using Guid(25673c86f9c798d4c96d088fe5d0aafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda8fdf3ea3fc5e38b8fa51e523acdd9') in 0.030834 seconds
+  Import took 0.036430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Balcony_2_Edges_Opposite.obj
+  artifactKey: Guid(33e492df415c9b14bbb5dd9d1551f77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Balcony_2_Edges_Opposite.obj using Guid(33e492df415c9b14bbb5dd9d1551f77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ce691eee273ccabaae4d3e236d5df1') in 0.031766 seconds
+  Import took 0.037609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Floor.obj
+  artifactKey: Guid(ae44bff49bf5eba48997c9979301c2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Floor.obj using Guid(ae44bff49bf5eba48997c9979301c2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8dc7739ab219f4093d3b93f9d3c839') in 0.046169 seconds
+  Import took 0.051113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Wall_Straight_Top.obj
+  artifactKey: Guid(b05d8f04809467e40b694584804b1a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Wall_Straight_Top.obj using Guid(b05d8f04809467e40b694584804b1a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15156822fec3fbae9bf04c5735b0687') in 0.021416 seconds
+  Import took 0.026833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Ceiling_Beam_Angled.obj
+  artifactKey: Guid(3c17a2440c292fd489d8cbeda2a39323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Ceiling_Beam_Angled.obj using Guid(3c17a2440c292fd489d8cbeda2a39323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ad2773450323221b6db26fa69d1a0b') in 0.024968 seconds
+  Import took 0.030191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Kitchen_Cabinet_Base_Half.obj
+  artifactKey: Guid(8b37727e82d1c5e46b151e80807ae852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Kitchen_Cabinet_Base_Half.obj using Guid(8b37727e82d1c5e46b151e80807ae852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb5aaf943092fb6d17e3fe2fccff2b4') in 0.081657 seconds
+  Import took 0.087636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Stairs_Railing_Rising_Curved_Outer.obj
+  artifactKey: Guid(ce471a0fe70734e409fcc139fb044089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Stairs_Railing_Rising_Curved_Outer.obj using Guid(ce471a0fe70734e409fcc139fb044089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b768e48c254ddca8e97d60138947195d') in 0.030769 seconds
+  Import took 0.037273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Wall_Door.obj
+  artifactKey: Guid(06648ff851759f54fa14397c0a8675a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Wall_Door.obj using Guid(06648ff851759f54fa14397c0a8675a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0841e4213e6de9249ba0d0e84c26e701') in 0.062239 seconds
+  Import took 0.067342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Stairs_Railing_Landing_Corner.obj
+  artifactKey: Guid(e069f402e6e2e4e41b4e8e275d530b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Stairs_Railing_Landing_Corner.obj using Guid(e069f402e6e2e4e41b4e8e275d530b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c391ce0a3538cbdfe66081ff78a980') in 0.026789 seconds
+  Import took 0.031436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Kitchen_Cabinet_Base_Sink.obj
+  artifactKey: Guid(c864c1d7af3ed0c4382f225e3fae1ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Kitchen_Cabinet_Base_Sink.obj using Guid(c864c1d7af3ed0c4382f225e3fae1ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1755c384295ad1dfa2e37f651afb75') in 0.095394 seconds
+  Import took 0.100337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Kitchen_Cabinet_Base_Edge.obj
+  artifactKey: Guid(7ce2c1ff62d1eeb4da0417748121180f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Kitchen_Cabinet_Base_Edge.obj using Guid(7ce2c1ff62d1eeb4da0417748121180f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32e7a47b1867080a9d01c5a22b61948') in 0.019751 seconds
+  Import took 0.023903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Wall_Doorway.obj
+  artifactKey: Guid(f40665aeae6f4a94d9cf6564b2d556fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Wall_Doorway.obj using Guid(f40665aeae6f4a94d9cf6564b2d556fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3be18b0419f8c57ec8c629bfa53b32') in 0.019780 seconds
+  Import took 0.024356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Bathroom_Tile_Wall_Corner.obj
+  artifactKey: Guid(b1269dae9ba723f4f882539c71285fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Bathroom_Tile_Wall_Corner.obj using Guid(b1269dae9ba723f4f882539c71285fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53fd4ea2e2386b108f52fcf925bec8ce') in 0.041129 seconds
+  Import took 0.045812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Bathroom_Cabinet_Full.obj
+  artifactKey: Guid(3e9ed2522a9f6a64bb77442d06426be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Bathroom_Cabinet_Full.obj using Guid(3e9ed2522a9f6a64bb77442d06426be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae4a966b069b0334e3e0423e05896ef') in 0.110379 seconds
+  Import took 0.115172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Kitchen_Cabinet_Wall_Half.obj
+  artifactKey: Guid(034fc245902d0bd4f9906cfbd6eacdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Kitchen_Cabinet_Wall_Half.obj using Guid(034fc245902d0bd4f9906cfbd6eacdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a417efee28e3b56fc5b25564022ece57') in 0.039988 seconds
+  Import took 0.044477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Roof_Center_Half.obj
+  artifactKey: Guid(3c95eb02698acad489e8c8004cc6093c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Roof_Center_Half.obj using Guid(3c95eb02698acad489e8c8004cc6093c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '804149d095d365121ae1abebcf177712') in 0.035748 seconds
+  Import took 0.040799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Wall_Curved_Large_Base.obj
+  artifactKey: Guid(2725c8d3e9122dc4fabd7a0c983a22cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Wall_Curved_Large_Base.obj using Guid(2725c8d3e9122dc4fabd7a0c983a22cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ff963e24f9235c190928e1ebb47e81') in 0.020109 seconds
+  Import took 0.024808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Kitchen_Cabinet_Side_Shelves.obj
+  artifactKey: Guid(d46f0baf08fd14a4cbf05c65a6cfd23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Kitchen_Cabinet_Side_Shelves.obj using Guid(d46f0baf08fd14a4cbf05c65a6cfd23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c95f4587f83276b280a314516c3bc1') in 0.031496 seconds
+  Import took 0.036103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Wall_Straight_Base.obj
+  artifactKey: Guid(cfea855db29d0df43892d10447c26880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Wall_Straight_Base.obj using Guid(cfea855db29d0df43892d10447c26880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f11a6a1a8549d2f1020b5668c8478f0') in 0.029018 seconds
+  Import took 0.033937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Exterior_Doorway_Sidelight.obj
+  artifactKey: Guid(cf9348d2fd186064aac524b48ba4550c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Exterior_Doorway_Sidelight.obj using Guid(cf9348d2fd186064aac524b48ba4550c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b2c86ebe7206db438eca8c2965368a') in 0.032232 seconds
+  Import took 0.037250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Exterior_Door.obj
+  artifactKey: Guid(20802f0707e560d4aac0d5ed6993a645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Exterior_Door.obj using Guid(20802f0707e560d4aac0d5ed6993a645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0f224218a4b122193461d1bd5393dc') in 0.065100 seconds
+  Import took 0.070611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.154865 seconds.
+  path: Assets/Model Assets/Modular House Collection/Prop_Bathroom_Shower.mtl
+  artifactKey: Guid(b2cdc91caaf056d4fbe604f7c109eb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Prop_Bathroom_Shower.mtl using Guid(b2cdc91caaf056d4fbe604f7c109eb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2fbece507ebf57926dabdc3fd8b0c93') in 0.007085 seconds
+  Import took 0.012383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.110110 seconds.
+  path: Assets/Model Assets/Modular House Collection/Structure_Kitchen_Cabinet_Wall_Half.mtl
+  artifactKey: Guid(97074f47ee0c8c449bbd14a14b07ceeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/Structure_Kitchen_Cabinet_Wall_Half.mtl using Guid(97074f47ee0c8c449bbd14a14b07ceeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31741972ded2327659cd5183bcd9022') in 0.003461 seconds
+  Import took 0.009698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.750917 seconds.
+  path: Assets/Model Assets/Modular House Collection/All Models.unity
+  artifactKey: Guid(c983325e6ee9326459202423c906c20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model Assets/Modular House Collection/All Models.unity using Guid(c983325e6ee9326459202423c906c20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58b22a4605eba7ecd4a7056245b77e6') in 0.002793 seconds
+  Import took 0.008573 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
